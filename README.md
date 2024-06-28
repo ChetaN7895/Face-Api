@@ -1,9 +1,4 @@
-![Git Version](https://img.shields.io/github/package-json/v/vladmandic/face-api?style=flat-square&svg=true&label=git)
-![NPM Version](https://img.shields.io/npm/v/@vladmandic/face-api.png?style=flat-square)
-![Last Commit](https://img.shields.io/github/last-commit/vladmandic/face-api?style=flat-square?svg=true)
-![License](https://img.shields.io/github/license/vladmandic/face-api?style=flat-square?svg=true)
-![GitHub Status Checks](https://img.shields.io/github/checks-status/vladmandic/face-api/master?style=flat-square?svg=true)
-![Vulnerabilities](https://img.shields.io/snyk/vulnerabilities/github/vladmandic/face-api?style=flat-square?svg=true)
+![Git Version](https:
 
 # FaceAPI
 
@@ -44,7 +39,6 @@ Example can be accessed directly using Git pages using URL:
 *Note: Photos shown below are taken by me*
 
 ![facemesh](https://github.com/ChetaN7895/Face-Api/assets/151900157/5127a90a-7dbc-42d2-9761-3ddc870543fb)
-![sample1](https://github.com/ChetaN7895/Face-Api/assets/151900157/b8870143-6d45-4b11-aff0-87c996df42f8)
 ![screenshot-images~2](https://github.com/ChetaN7895/Face-Api/assets/151900157/e1a1fe8c-cb90-439e-a1ca-68f4bf5efa38)
 
 **Demo using FaceAPI to process live webcam**  
