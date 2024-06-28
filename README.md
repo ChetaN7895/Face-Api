@@ -43,7 +43,9 @@ Example can be accessed directly using Git pages using URL:
 **Demo using FaceAPI to process images**  
 *Note: Photos shown below are taken by me*
 
-
+![facemesh](https://github.com/ChetaN7895/Face-Api/assets/151900157/5127a90a-7dbc-42d2-9761-3ddc870543fb)
+![sample1](https://github.com/ChetaN7895/Face-Api/assets/151900157/b8870143-6d45-4b11-aff0-87c996df42f8)
+![screenshot-images~2](https://github.com/ChetaN7895/Face-Api/assets/151900157/e1a1fe8c-cb90-439e-a1ca-68f4bf5efa38)
 
 **Demo using FaceAPI to process live webcam**  
 
