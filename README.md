@@ -43,11 +43,12 @@ Example can be accessed directly using Git pages using URL:
 **Demo using FaceAPI to process images**  
 *Note: Photos shown below are taken by me*
 
-![sample4](https://github.com/ChetaN7895/Face-Api/assets/151900157/0e13b8ac-7ddb-4955-a454-71ee33b6761b)
 
 
 **Demo using FaceAPI to process live webcam**  
 
+
+![screenshot-images~3](https://github.com/ChetaN7895/Face-Api/assets/151900157/b47f09f1-0fb7-451a-a922-18aeb68d3aca)
 
 ![screenshot-webcam](https://github.com/ChetaN7895/Face-Api/assets/151900157/0805dc92-94eb-4c9a-8770-f794500f508f)
 
