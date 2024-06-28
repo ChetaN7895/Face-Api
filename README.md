@@ -31,7 +31,7 @@
 Browser example that uses static images and showcases both models  
 as well as all of the extensions is included in `/demo/index.html`  
 Example can be accessed directly using Git pages using URL:  
-<https://vladmandic.github.io/face-api/demo/index.html>  
+< 
 
 Browser example that uses live webcam is included in `/demo/webcam.html`  
 Example can be accessed directly using Git pages using URL:  
@@ -92,8 +92,7 @@ Simply include latest version of `FaceAPI` directly from a CDN in your HTML:
 (pick one, `jsdelivr` or `unpkg`)
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/@vladmandic/face-api/dist/face-api.js"></script>
-<script src="https://unpkg.dev/@vladmandic/face-api/dist/face-api.js"></script>
+
 ```
 
 ## Installation
@@ -142,16 +141,7 @@ This is simplest way for usage within Browser
 Simply download `dist/face-api.js`, include it in your `HTML` file & it's ready to use:
 
 ```html
-<script src="dist/face-api.js"><script>
-```
-
-Or skip the download and include it directly from a CDN:
-
-```html
-<script src="https://cdn.jsdelivr.net/npm/@vladmandic/face-api/dist/face-api.js"></script>
-```
-
-IIFE script bundles TFJS and auto-registers global namespace `faceapi` within Window object which can be accessed directly from a `<script>` tag or from your JS file.  
+IFE script bundles TFJS and auto-registers global namespace `faceapi` within Window object which can be accessed directly from a `<script>` tag or from your JS file.  
 
 <br>
 
@@ -175,30 +165,22 @@ and then in your `index.js`
 
 #### 2.2. With Bundler
 
-Same as above, but expectation is that you've installed `@vladmandic/faceapi` package:
-
+Same as above, but expectation is that you've installed 
 ```shell
-  npm install @vladmandic/face-api 
+  npm install /face-api 
 ```
 
 and that you'll package your application using a bundler such as `webpack`, `rollup` or `esbuild`  
 in which case, you do not need to import a script as module - that depends on your bundler configuration  
 
-```js
-  import * as faceapi from '@vladmandic/face-api';
-```
 
-or if your bundler doesn't recognize `recommended` type, force usage with:
-
-```js
-  import * as faceapi from '@vladmandic/face-api/dist/face-api.esm.js';
 ```
 
 or to use non-bundled version
 
 ```js
   import * as tf from `@tensorflow/tfjs`;
-  import * as faceapi from '@vladmandic/face-api/dist/face-api.esm-nobundle.js';
+  import * as faceapi from '/face-api.esm-nobundle.js';
 ```
 
 <br>
@@ -215,20 +197,20 @@ Install with:
 
 ```shell
   npm install @tensorflow/tfjs-node
-  npm install @vladmandic/face-api 
+  npm instalface-api 
 ```
 
 And then use with:
 
 ```js
   const tf = require('@tensorflow/tfjs-node')
-  const faceapi = require('@vladmandic/face-api');
+  
 ```
 
 If you want to force CommonJS module instead of relying on `recommended` field:
 
 ```js
-  const faceapi = require('@vladmandic/face-api/dist/face-api.node.js');
+  const faceapi = require('face-api/dist/face-api.node.js');
 ```
 
 If you want to GPU Accelerated execution in NodeJS, you must have CUDA libraries already installed and working  
@@ -236,14 +218,14 @@ Then install appropriate version of `FaceAPI`:
 
 ```shell
   npm install @tensorflow/tfjs-node-gpu
-  npm install @vladmandic/face-api 
+  
 ```
 
 And then use with:
 
 ```js
   const tf = require('@tensorflow/tfjs-node-gpu')
-  const faceapi = require('@vladmandic/face-api/dist/face-api.node-gpu.js'); // this loads face-api version with correct bindings for tfjs-node-gpu
+  const faceapi = require('c/face-api/dist/face-api.node-gpu.js'); // this loads face-api version with correct bindings for tfjs-node-gpu
 ```
 
 If you want to use `FaceAPI` in a NodeJS on platforms where **tensorflow** binary libraries are not supported, you can use NodeJS **WASM** backend.  
@@ -251,7 +233,7 @@ If you want to use `FaceAPI` in a NodeJS on platforms where **tensorflow** binar
 ```shell
   npm install @tensorflow/tfjs
   npm install @tensorflow/tfjs-backend-wasm
-  npm install @vladmandic/face-api 
+
 ```
 
 And then use with:
@@ -259,7 +241,7 @@ And then use with:
 ```js
   const tf = require('@tensorflow/tfjs');
   const wasm = require('@tensorflow/tfjs-backend-wasm');
-  const faceapi = require('@vladmandic/face-api/dist/face-api.node-wasm.js'); // use this when using face-api in dev mode
+  const faceapi = require/face-api/dist/face-api.node-wasm.js'); // use this when using face-api in dev mode
   wasm.setWasmPaths('https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-backend-wasm/dist/');
   await tf.setBackend('wasm');
   await tf.ready();
@@ -281,7 +263,7 @@ Patch NodeJS environment to use newly installed `Canvas` library:
 
 ```js
 const canvas = require('canvas');
-const faceapi = require('@vladmandic/face-api');
+const faceapi = require('/face-api');
 
 const { Canvas, Image, ImageData } = canvas
 faceapi.env.monkeyPatch({ Canvas, Image, ImageData })
@@ -319,7 +301,7 @@ cd node_modules/@vladmandic/face-api
 or clone a git project
 
 ```shell
-git clone https://github.com/vladmandic/face-api
+
 cd face-api
 ```
 
